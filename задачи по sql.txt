@@ -1,0 +1,5 @@
+1. select model,speed,hd from PC where price < 500
+2. Select DISTINCT maker from Product WHERE type = 'Printer'
+3. Select model, ram, screen from Laptop where price > 1000
+4. select * from printer where color ='y'
+5. Select model, speed, hd from PC where (PC.cd ='12x' OR PC.cd = '24x') AND price < 600
